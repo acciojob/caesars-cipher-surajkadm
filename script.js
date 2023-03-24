@@ -14,3 +14,5 @@ function rot13(encryptstr){
 	}
 	return decodedArr.join(" ")
 }
+
+module.exports = rot13;
