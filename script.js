@@ -25,6 +25,24 @@ function rot13(encodedStr){
         decodedArr.push(decoded_word)
      }
         return decodedArr.join(" ");
+
+
+// let arr=[];
+//     for (let i = 0; i < encodedStr.length; i++) {
+//         if(lookup[encodedStr[i]]===undefined){
+//             arr.push(encodedStr[i]);
+//         }
+//         else{
+//             arr.push(lookup[encodedStr[i]])
+//         }
+//     }
+//     console.log("decoded arr is",arr);
+
+
+
 }
+
+
+
 
 module.exports = rot13;
